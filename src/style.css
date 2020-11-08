@@ -1,0 +1,31 @@
+.base{
+    /* position: relative; */
+    width: 100px;
+    height: 50px;
+    background: red;
+    display: flex;
+    transition: all 3s linear;
+
+}
+
+.item{
+    /* position: absolute; */
+    width: 50px;
+    height: 50px;
+    background: green;
+    /* top: 0;
+    left: 0; */
+    order: 1;
+    transition: all 3s linear;
+}
+
+.item-i{
+    /* top: 0;
+    left: 50px;
+    position: absolute; */
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    order: 2;
+    /* transition: order 1s linear; */
+}
